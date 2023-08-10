@@ -35,7 +35,8 @@ li a {
 }
 .welcome { display: flex;
     justify-content: center;
-    margin: 50px;;
+    margin: 50px;
+    gap: 20px;
 }
 .wetitle {
     font-size: 48px;
@@ -70,6 +71,7 @@ button {
     background-color: #3882f6;
     border: #3882f6 solid 2px ;
     border-radius: 8px;
+    padding: 0.5em 1em;
 
 }
 
@@ -86,7 +88,7 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 70px;
+    padding: 50px;
     
 }
 .qutext 
@@ -100,6 +102,12 @@ button {
 
 }
 
+.quname {
+    width: 600px;
+    text-align: right;
+    font-weight: 800;
+    font-size: 36px;
+}
 
 
 .info {
@@ -134,4 +142,41 @@ button {
     border-radius: 16px;
     width: 150px;
     height: 150px;
+}
+
+
+.sign {
+    align-self: center;
+ display: flex;
+ flex-direction: row;
+ padding: 30px;
+ background-color: #3882f6;
+ color: white;
+ justify-content: space-around;
+ width: 800px;
+ border-radius: 16px;
+ margin: 60px;
+ padding: 30px;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+
+}
+.actitle {
+font-weight: 800;
+font-size: 1.25em;
+
+}
+
+.actext {color: #e5e7eb;
+}
+
+
+
+
+.stwo {
+border: 2px solid white;
+
 }
